@@ -18,6 +18,9 @@ export const useStyles = createStyles(
         border-radius: ${token.borderRadiusLG}px;
         box-shadow: 0 0 0 1px ${token.colorBorderSecondary};
       `,
+      footer: css`
+        display: none;
+      `,
       header: css`
         gap: 1em;
       `,

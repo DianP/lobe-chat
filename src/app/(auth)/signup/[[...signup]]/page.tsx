@@ -1,5 +1,4 @@
-import { SignUp } from '@clerk/nextjs';
-
+// import { SignUp } from '@clerk/nextjs';
 import { metadataModule } from '@/server/metadata';
 import { translation } from '@/server/translation';
 
@@ -13,7 +12,7 @@ export const generateMetadata = async () => {
 };
 
 const Page = () => {
-  return <SignUp path="/signup" />;
+  return;
 };
 
 Page.displayName = 'SignUp';
